@@ -12,7 +12,7 @@ const caixas = require('./Routers/Caixas')
 const pedidos =  require('./Routers/Pedidos')
 const produtos =  require('./Routers/Produtos')
 const carrinhos =  require('./Routers/Carrinhos')
-
+ // comentario top
 app.use('/api/caixas', caixas)
 app.use('/api/pedidos', pedidos)
 app.use('/api/produtos', produtos)

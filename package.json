@@ -1,0 +1,29 @@
+{
+  "name": "pdv-back",
+  "version": "1.0.0",
+  "description": "API do sistema PDV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://uLuccas@bitbucket.org/uluccas/pdv-back.git"
+  },
+  "keywords": [
+    "API",
+    "PDV"
+  ],
+  "author": "Luccas Sanches",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/uluccas/pdv-back/issues"
+  },
+  "homepage": "https://bitbucket.org/uluccas/pdv-back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  }
+}
